@@ -213,6 +213,7 @@ multiplier_enabled: true    # Мультипликатор IWE
 | **[DATA-RESIDENCY.md](docs/DATA-RESIDENCY.md)** | Принцип резидентности: данные, которые вы приносите в IWE извне (здоровье, календарь, рабочее время) — куда им можно и нельзя уходить |
 | **[IWE-HELP.md](docs/IWE-HELP.md)** | Быстрая справка и FAQ |
 | **[principles-vs-skills.md](docs/principles-vs-skills.md)** | Почему принципы важнее навыков: генеративная иерархия |
+| **[Экспериментальный ручной Pi adapter](adapters/pi/README.md)** | Ритуалы Session/Day/Week/Month, разбор заметок и чтение Pack для Pi; ручная установка, проверка и rollback |
 | **[ONTOLOGY.md](ONTOLOGY.md)** | Онтология: все термины и аббревиатуры IWE |
 | **[CHANGELOG.md](CHANGELOG.md)** | История изменений шаблона |
 

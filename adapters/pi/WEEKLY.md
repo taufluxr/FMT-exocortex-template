@@ -1,0 +1,25 @@
+# Weekly lifecycle rules
+
+> Part of the shared lifecycle rules: start with [LIFECYCLE.md](LIFECYCLE.md); its sections apply here unchanged.
+
+Read when weekly files are in scope: always in Week Open/Close; in Session and Day rituals only under full weekly reconciliation, on a strategy day, or for an explicit weekly inspection or amendment request (**Weekly reconciliation cadence** in LIFECYCLE.md).
+
+## Weekly steps of the Session and Day rituals
+
+When weekly reconciliation is enabled, the four Session/Day skills apply the steps below instead of restating them. Under weekly-only every step here is non-required, not missing work; the read-only WeekPlan intent consultation in **Weekly reconciliation cadence** (LIFECYCLE.md) is separate from these reconciliation steps.
+
+- **Session Open:** identify the current `DS-strategy/current/WeekPlan *.md` and its paired `WeekReport *.md` when present; start from metadata and heading indexes, verify the pair, and read complete sections covering current focus, applicable constraints and baseline/amendments, the selected planning group, and subject-relevant intentions or facts, plus the complete destination section before registration. Apply the Registration exception below for a dated future-candidate or non-commitment entry; refresh pair metadata before a further registration in the same session.
+- **Session Close:** record material weekly facts only through the Factual reconciliation exception below. A missing or ambiguous pair is an unresolved projection, never a waiver, a created pair, or a fact written into WeekPlan.
+- **Day Open:** on `strategy_day` apply the Strategy day exception instead of creating a DayPlan; on other days read the WeekPlan whose period contains today and its paired WeekReport, use that WeekPlan as an additional source of candidate work, and verify that the plan date, week identifier, week-year, and period agree.
+- **Day Close:** read the current pair as evidence; on `strategy_day` record daily facts through the paired WeekReport instead of archiving a DayPlan, and otherwise apply the Factual reconciliation exception to material weekly facts. A weekly-intent amendment always needs its own approval.
+
+## Bounded WeekPlan exceptions
+
+A current WeekPlan and WeekReport form one pair only when they have the same week identifier, week-year, and period and reciprocal filename links. WeekPlan contains intent; WeekReport contains facts. A missing or ambiguous pair never authorizes falling back to facts in WeekPlan.
+
+**Planning-projection boundaries** in LIFECYCLE.md set who writes each surface; **Weekly reconciliation cadence** there determines whether weekly projections are in scope; under weekly-only, the registration, factual-reconciliation, and strategy-day exceptions below are not performed during ordinary Session/Day rituals. They do not require discovery of skipped weekly files. These exceptions apply only to the interactive IWE lifecycle owner:
+
+- **Registration:** after the Work Product Gate approval, Session Open may add a dated future-candidate or non-commitment intent entry to an existing current WeekPlan. Keep execution facts in the WP context and paired WeekReport, and label the candidate as outside the weekly commitment and outside the frozen commitment baseline unless the owner separately approves an amendment. If no unambiguous current WeekPlan exists, register in the WP context and registry, report the absent projection, and leave plan creation to Week Open.
+- **Factual reconciliation:** Session Close and Day Open/Close may record only established status or result changes in a dated results/status section of the WeekReport paired with the current WeekPlan. They never put facts in WeekPlan. The enclosing ritual's approval requirements still apply. If the pair is absent or ambiguous, report the missing projection and leave creation to Week Open or Week Close rather than writing facts into WeekPlan. Registry entries change only on a status transition; WP contexts receive only material result or next-action changes; memory changes only for the global context, blocker, or next focus. Historical baseline status is not current-status drift: preserve it and link to the dated result instead of rewriting history.
+- **Weekly intent amendment:** outside Week Open/Close, the lifecycle owner may append a dated WeekPlan amendment only after showing the exact added, removed, or revised outcome and its budget/priority effect and obtaining explicit approval for that weekly change. Approval to register, activate, implement, or report a WP is not approval to change weekly commitments. Preserve the original baseline and record amendments separately; never retroactively rewrite it.
+- **Strategy day:** Day Open may use the existing WeekPlan for daily intent instead of creating a DayPlan, while Day Close records daily facts in the paired WeekReport. Apply factual reconciliation or the explicit weekly-intent amendment gate as appropriate; the configured day does not waive either gate or implicitly run Week Open/Close.
